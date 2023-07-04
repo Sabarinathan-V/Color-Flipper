@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#heading{ 
+    text-align: left;
+    font-size: 1.8rem;
+    padding: 5px;
+    margin-top: 10px;
+    padding-left: 15px;
+    border-bottom: 1px solid black;
+    color: red;
+}
+#heading #hexcode{
+    float:right;
+    padding-right: 15px;
+}
+#wrapper{
+    width: 100%;
+    height:90vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width:10rem;
+    height:3rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+}
